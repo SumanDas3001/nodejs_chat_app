@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgb(214, 214, 224), rgb(91, 102, 181));
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+}
+
+.chat_heading{
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.container {
+  border: 2px solid black;
+  max-width: 955px;
+  margin: auto;
+  height: 60vh;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  margin-top: 20px;
+}
+
+.message {
+  background-color: rgb(196, 181, 181);
+  width: 25%;
+  padding: 10px;
+  margin: 20px 10px;
+  border: 2px solid;
+  border-radius: 15px;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 1059px;
+  width: 100%;
+}
+
+#messageInp {
+  width: 91%;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 45px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 50px;
+  width: 50px;
+}
